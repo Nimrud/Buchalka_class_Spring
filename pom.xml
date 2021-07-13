@@ -8,6 +8,15 @@
     <artifactId>spring-maven</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
+<!--            <scope>test</scope>-->
+        </dependency>
+    </dependencies>
+
 <!--    plugin - zmiana wersji: -->
 <!--    <build>-->
 <!--        <plugins>-->
