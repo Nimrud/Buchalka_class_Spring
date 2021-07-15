@@ -13,6 +13,9 @@ public class Main {
     // klasa Logger (slf4j) od razu nie wyskakuje w podpowiedziach
     // trzeba wyłączyć <scope>test</scope> w dependencies
 
+    // plik konfiguracyjny Logbacka tworzymy w pakiecie 'resources'
+    // definiujemy w nim, jaki ma być wzorzec informacji zwrotnej loggera
+
     public static void main(String[] args) {
         log.info("Info");
         log.debug("Debug");
